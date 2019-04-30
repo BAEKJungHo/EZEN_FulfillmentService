@@ -4,6 +4,8 @@
 
 Amazon Fulfilment Service와 비슷하게 창고 시스템을 개발하는 프로젝트 입니다. (3인 1조)
 
+[My GitHub Blog, Fulfillment Service Link](https://baekjungho.github.io/project-ezenfulfillment/)
+
 ## 기간 : 2019-04-30 ~ 2019-05-17
 
 ### 사용 언어 
@@ -12,7 +14,7 @@ Amazon Fulfilment Service와 비슷하게 창고 시스템을 개발하는 프�
 
 ### Tool
 
-	Eclipse, HeidiSQL, Tomcat
+	Eclipse, HeidiSQL, Tomcat, BootStrap
 
 ### 구현 내용
 
