@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<a class="navbar-brand" href="#">Ezen 창고&nbsp;&nbsp;<i class="glyphicon glyphicon-wrench"></i></a>
+				</div>
+				<div class="col-md-4">
+					<p class="navbar-text navbar-right">
+						Copyright &copy; 2018, C.K.Kim. All rights reserved.
+					</p>
+				</div>
+				<div class="col-md-5">
+					<p class="navbar-text navbar-right">
+						자바기반 전자정부 표준프레임워크 개발&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- /.container-fluid -->
+	</nav>

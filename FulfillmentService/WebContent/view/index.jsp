@@ -10,8 +10,8 @@
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<!-- _top.jspf 포함 위치 -->
-
+	<%@ include file="common/_top.jspf" %> 
+	<%@ include file="common/_nav.jspf" %> 
 	<div class="container">
 		<div class="row" style="margin-top: 90px">
 			<div class="col-md-1"></div>
@@ -66,7 +66,7 @@
 		</div>
 	</div>
 
-	<!-- _bottom.jspf 포함 위치 -->
+	<%@ include file="common/_bottom.jspf" %>
 	<!-- ==================================================================== -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
