@@ -54,4 +54,10 @@ Amazon Fulfilment Service와 비슷하게 창고 시스템을 개발하는 프�
     - MVC 설계(Model, View, Controller)
     - View 구현(index.jsp, _top.jspf, _nav.jspf, _bottom.jspf, loginForm.jsp, registerForm.jsp)
 
+- __2019-05-02(목)__
+
+    - DTO, DAO 설계, SQL 쿼리문 작성
+    - Controller session, attribute, parameter 설계
+    - View 구현	
+
 	
