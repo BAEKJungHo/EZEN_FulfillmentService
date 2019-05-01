@@ -1,4 +1,4 @@
-# 대전 이젠 아카데미
+﻿# 대전 이젠 아카데미
 
 ## Fulfillment Service 구현 프로젝트
 
@@ -47,5 +47,11 @@ Amazon Fulfilment Service와 비슷하게 창고 시스템을 개발하는 프�
     - 화면 동작 과정 설계
     - 화면 UI 설계
     - DB Table 설계(상품목록, 관리자, 잠재고객, 송장 CSV 파일)
+
+- __2019-05-01(수)__
+
+    - DB Table 설계(송장, 운송회사, 구매처)
+    - MVC 설계(Model, View, Controller)
+    - View 구현(index.jsp, _top.jspf, _nav.jspf, _bottom.jspf, loginForm.jsp, registerForm.jsp)
 
 	
