@@ -9,6 +9,9 @@
 	<title>Ezen Fulfillment Service</title>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 </head>
+<style>
+	body { background-color : #2b2b30; }
+</style>
 <body>
 	<%@ include file="common/_top.jspf" %> 
 	<%@ include file="common/_nav.jspf" %> 

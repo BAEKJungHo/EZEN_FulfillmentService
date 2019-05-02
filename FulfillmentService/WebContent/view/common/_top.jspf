@@ -33,7 +33,7 @@
 						<%
 							} else {
 						%>
-						<a href="#">로그인</a>&nbsp;&nbsp; <a href="#">회원가입</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="../view/loginForm.jsp">로그인</a>&nbsp;&nbsp; <a href="../view/LoginRegister.jsp">회원가입</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						<%
 							}
 						%>
