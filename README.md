@@ -60,4 +60,9 @@ Amazon Fulfilment Service와 비슷하게 창고 시스템을 개발하는 프�
     - Controller session, attribute, parameter 설계
     - View 구현	
 
+- __2019-05-03(금)__
+
+    - 프로젝트 계획발표 1차 : 업무분장, DB설계, 화면초안
+    - Controller, Model 구현
+    - View 구현
 	
