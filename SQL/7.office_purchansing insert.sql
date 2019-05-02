@@ -1,4 +1,4 @@
-INSERT INTO office_purchasing (o_adminId,o_productId,o_productName)
+﻿INSERT INTO office_purchasing (o_adminId,o_productId,o_productName)
 	values (30001, 50009,'기능성티'), (30001, 50010,'fila반팔티'),
 		  	 (30001, 50011,'sculptor반팔티'), (30001,50012,'엔더슨벨후드'),
 			 (30001, 50013,'볼트로우신발'), (30001,50014,'사이드홀로퍼'),

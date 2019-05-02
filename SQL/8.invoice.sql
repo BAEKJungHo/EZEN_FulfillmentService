@@ -7,7 +7,7 @@ CREATE TABLE invoice (
 	i_quantity int(255) NOT NULL,
 	i_date datetime NOT NULL DEFAULT current_timestamp, 
 	i_adminId int(5) unsigned NOT NULL,
-  	PRIMARY KEY (i_id),
+  	PRIMARY KEY (i_productId, i_adminid),
   	FOREIGN KEY (i_productId) REFERENCES product_storage(p_id),
   	FOREIGN KEY (i_adminId) REFERENCES admins(a_id)
   ) DEFAULT CHARSET=utf8;
