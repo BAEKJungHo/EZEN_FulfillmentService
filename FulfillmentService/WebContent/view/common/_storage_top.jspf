@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+				<a class="navbar-brand" href="/FulfillmentService/view/index.jsp"><i class="glyphicon glyphicon-cloud-upload"></i>Ezen 창고&nbsp;&nbsp;
+				<i class="glyphicon glyphicon-cloud-upload"></i></a>
+			</div>
+				<div class="col-md-5">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							조회&nbsp;
+							<i class="glyphicon glyphicon-search"></i>&nbsp;
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="../storage/billingPaymentHistory.jsp">청구/지급 조회</a></li>
+							<li><a href="../storage/salesHistory.jsp">판매 내역 조회</a></li>
+							<li><a href="../storage/salesProfit.jsp">매출 이익 조회</a></li>
+							<li><a href="../storage/storageOrderHistory.jsp">발주 내역 조회</a></li>
+							<li><a href="../storage/storageTransportHistory.jsp">운송 내역 조회</a></li>
+						</ul>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-expanded="false">청구/지급&nbsp;
+							<i class="glyphicon glyphicon-search"></i>&nbsp;<span
+							class="caret"></span>
+					</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="../storage/billingPaymentHistory.jsp">대금 청구</a></li>
+							<li><a href="../storage/payment.jsp">대금 지급</a></li>
+						</ul>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-expanded="false">
+							발주/출고&nbsp;<i class="glyphicon glyphicon-search"></i>&nbsp;<span
+							class="caret"></span>
+					</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="../storage/order.jsp">발주</a></li>
+							<li><a href="../storage/shipping.jsp">출고</a></li>
+						</ul>
+					<li><a href="#">재고조사&nbsp;<i
+							class="glyphicon glyphicon-list-alt"></i></a>
+				</ul>
+			</div>
+				<div class="col-md-3">
+					<p class="navbar-text navbar-right">
+						<%
+							if (session.getAttribute("sessionCustomerId") != null) {
+						%>
+						${sessionCustomerName} 고객님 환영합니다.&nbsp;&nbsp; <a href="#">로그아웃</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<%
+							} else {
+						%>
+						<a href="#">로그인</a>&nbsp;&nbsp;
+						<%
+							}
+						%>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container-fluid -->
+	</nav>

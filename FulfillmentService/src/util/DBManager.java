@@ -30,7 +30,7 @@ public class DBManager {
 		Connection conn;
 		try {
 			Context initContext = new InitialContext();
-			DataSource ds = (DataSource) initContext.lookup("java:comp/env/jdbc/ezen");
+			DataSource ds = (DataSource) initContext.lookup("java:comp/env/jdbc/fulfillment");
 			conn = ds.getConnection();
 		}
 		catch (Exception e) {

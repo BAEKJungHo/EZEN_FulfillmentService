@@ -6,7 +6,7 @@
 	 p_quantity int(255) unsigned NOT NULL,
 	 p_adminId int(5) unsigned NOT NULL,
   	PRIMARY KEY (p_id),
-  	FOREIGN KEY (p_adminId) REFERENCES admins(a_id)
+  	FOREIGN KEY (p_adminId) REFERENCES admins(p_id)
   ) AUTO_INCREMENT=50001 DEFAULT CHARSET=utf8;
 
 desc product_storage;

@@ -4,7 +4,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3">
-					<a class="navbar-brand" href="#">Ezen 창고&nbsp;&nbsp;<i class="glyphicon glyphicon-wrench"></i></a>
+					<a class="navbar-brand" href="/FulfillmentService/view/index.jsp">Ezen 창고&nbsp;&nbsp;<i class="glyphicon glyphicon-king"></i></a>
 				</div>
 				<div class="col-md-4">
 					<p class="navbar-text navbar-right">

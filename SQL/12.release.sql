@@ -11,5 +11,6 @@ CREATE TABLE p_release (
 	r_date datetime,
   	PRIMARY KEY (r_id),
 	FOREIGN KEY (r_transportId) REFERENCES admins(a_id),
-	FOREIGN KEY (r_shoppingId) REFERENCES admins(a_id)
+	FOREIGN KEY (r_shoppingId) REFERENCES admins(a_id),
+	FOREIGN KEY (r_invoiceId) REFERENCES invoice(i_id)
 ) AUTO_INCREMENT=40000001 DEFAULT CHARSET=utf8;

@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>ezenMall: 404-error</title>
+<title>ezenFulfillmentService: 404-error</title>
 </head>
 <jsp:useBean id="now" class="java.util.Date" />
 <body>
 <div align=center>
-<H2>ezenMall: 404-error 발생!!</H2>
+<H2>ezenFulfillmentService: 404-error 발생!!</H2>
 <HR>
 
 <table>

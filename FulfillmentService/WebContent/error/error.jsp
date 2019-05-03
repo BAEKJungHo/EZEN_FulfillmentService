@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>ezenMall error</title>
+<title>ezenFulfillmentService error</title>
 </head>
 <jsp:useBean id="now" class="java.util.Date" />
 <body>
 <div align=center>
-<H2>ezenMall 오류!!</H2>
+<H2>ezenFulfillmentService 오류!!</H2>
 <HR>
 
 <table>

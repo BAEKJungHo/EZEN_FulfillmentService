@@ -40,30 +40,30 @@ return true;
 					<p><h2>회원가입</h2></p>
 					<p><h5>Ezen FulfillmentService에 로그인하기 위해 회원가입을 해주세요.</h5></p>
 				</div><br>
-				<form action="/control/loginRegisterServlet?action=register" class="form-horizontal" 
+				<form action="/FulfillmentService/control/loginRegisterServlet?action=register" class="form-horizontal" 
 										method="POST" onSubmit="return isValidForm();">
 					<div class="form-group">
 						<label class="col-md-4 control-label">id</label>
 						<div class="col-md-3">
-							<input type="text" class="form-control" name="c_userId" id="userId"">
+							<input type="text" class="form-control" name="cUserId" id="userId">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-md-4 control-label">이름</label>
 						<div class="col-md-3">
-							<input type="text" class="form-control" name="c_name" id="name">
+							<input type="text" class="form-control" name="cName" id="name">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-md-4 control-label">패스워드</label>
 						<div class="col-md-3">
-							<input type="password" class="form-control" name="c_password" id="c_password">
+							<input type="password" class="form-control" name="cPassword" id="password">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-md-4 control-label">패스워드 확인</label>
 						<div class="col-md-3">
-							<input type="password" class="form-control" name="c_password" id="password2">
+							<input type="password" class="form-control" name="password2" id="password2">
 						</div>
 					</div>
 					<div class="form-group">

@@ -1,4 +1,4 @@
-CREATE TABLE order (
+CREATE TABLE p_order (
   	o_id int(8) unsigned NOT NULL AUTO_INCREMENT,
 	o_adminId int(5) unsigned NOT NULL,
   	o_quantity int(200) unsigned NOT NULL,

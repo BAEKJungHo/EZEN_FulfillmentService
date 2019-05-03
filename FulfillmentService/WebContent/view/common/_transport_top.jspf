@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+				<a class="navbar-brand" href="../index.jsp"><i
+					class="glyphicon glyphicon-cloud-upload"></i>&nbsp;&nbsp;이젠창고&nbsp;&nbsp;<i
+					class="glyphicon glyphicon-cloud-download"></i></a>
+			</div>
+			<div class="col-lg-5">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">대금지급리스트&nbsp;<i class="glyphicon glyphicon-list-alt"></i></a></li>
+					<li><a href="#">운송 내역 조회&nbsp;<i class="glyphicon glyphicon-list-alt"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<p class="navbar-text navbar-right">
+					<%
+						if (session.getAttribute("sessionCustomerId") != null) {
+					%>
+					${sessionCustomerName} 고객님 환영합니다.&nbsp;&nbsp; <a href="#">로그아웃</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<%
+						} else {
+					%>
+					<a href="#">로그인</a>&nbsp;&nbsp;
+					<%
+						}
+					%>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- /.container-fluid -->
+</nav>
