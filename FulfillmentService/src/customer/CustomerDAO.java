@@ -83,14 +83,14 @@ public class CustomerDAO {
 	}
 	
 	public String getLastId() {
-		String cUseId = null;
+		String cUserId = null;
 		conn = DBManager.getConnection();
 		String sql = "select c_userId from customers order by c_userId desc limit 1;";
 		try {
 			pstmt = conn.prepareStatement(sql);
 			rs = pstmt.executeQuery();
 			while(rs.next()) {
-				cUseId = rs.getString(1);
+				cUserId = rs.getString(1);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -105,42 +105,9 @@ public class CustomerDAO {
 				e.printStackTrace();
 			}
 		}
-		return cUseId;
+		return cUserId;
 	}
 	
-	/*
-    public CustomerDTO selectOne(String query) {
-    	LOG.debug("");
-    	PreparedStatement pStmt = null;
-    	CustomerDTO customer = new CustomerDTO();
-    	conn = DBManager.getConnection();
-    	try {
-			pStmt = conn.prepareStatement(query);
-			ResultSet rs = pStmt.executeQuery();
-			LOG.trace(query);
-			while (rs.next()) {
-				customer.setcId(rs.getInt(1));
-				customer.setcUserId(rs.getString(2));
-				customer.setcName(rs.getString(3));
-				customer.setcPassword(rs.getString(4));
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-			LOG.trace(e.getMessage());
-		} finally {
-			try {
-				pstmt.close();
-				conn.close();
-				rs.close();
-			} catch (SQLException se) {
-				se.printStackTrace();
-				LOG.trace(se.getMessage());
-			}
-		}
-    	LOG.debug("");
-    	return customer;
-    }
-    */
 	public CustomerDTO getOneCustomer(String cUserId) {
 		CustomerDTO cDto = new CustomerDTO();
 		conn = DBManager.getConnection();
@@ -170,21 +137,4 @@ public class CustomerDAO {
 		}
 		return cDto;
 	}
-    /*
-    public CustomerDTO searchById(String cUserId) {
-    	LOG.debug("");
-    	String sql = "select * from customers where c_userId=" + cUserId + ";";
-    	CustomerDTO cDto = selectOne(sql);
-    	return cDto;
-    }
-    
-    public CustomerDTO recentId() {
-    	LOG.debug("");
-    	String sql = "select * from customers order by c_id desc limit 1;";
-    	LOG.trace(sql);
-    	CustomerDTO mDto = selectOne(sql);
-    	LOG.debug("");
-    	return mDto;
-    }
-    */
 }

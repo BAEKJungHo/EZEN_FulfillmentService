@@ -26,7 +26,7 @@
           <div class="row">
               <div class="col-md-6 login-form-1">
                   <h5>회원 로그인</h5>
-                  <form action="/FulfillmentService/control/loginRegisterServlet?action=customerLogin" method="POST">
+                  <form action="/FulfillmentService/control/loginRegisterServlet?action=customersLogin" method="POST">
                       <div class="form-group">
                           <input type="text" class="form-control" name="cUserId" placeholder="Your Id *" value="" />
                       </div>
@@ -44,10 +44,10 @@
                    <h5>관리자 로그인</h5>
                    <form action="/FulfillmentService/control/loginRegisterServlet?action=adminsLogin" method="POST">
                        <div class="form-group">
-                           <input type="text" class="form-control" name="adminId" placeholder="Your Id *" value="" />
+                           <input type="text" class="form-control" name="aUserId" placeholder="Your Id *" value="" />
                        </div>
                        <div class="form-group">
-                           <input type="password" class="form-control" name="adminPassword" placeholder="Your Password *" value="" />
+                           <input type="password" class="form-control" name="aPassword" placeholder="Your Password *" value="" />
                        </div>
                        <div class="form-group">
                            <input type="submit" class="btnSubmit" value="Login" />

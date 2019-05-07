@@ -27,9 +27,9 @@
 			<div class="col-md-3">
 				<p class="navbar-text navbar-right">
 					<%
-									if (session.getAttribute("sessionCustomerId") != null) {
+									if ((session.getAttribute("sessionCustomerId") != null) || (session.getAttribute("sessionAdminId") != null) ) {
 								%>
-					${sessionCustomerName} 고객님 환영합니다.&nbsp;&nbsp; <a href="/FulfillmentService/control/loginRegisterServlet?action=logout">로그아웃</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					${sessionCustomerName} ${sessionAdminName} 고객님 환영합니다.&nbsp;&nbsp; <a href="/FulfillmentService/control/loginRegisterServlet?action=logout">로그아웃</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<%
 									} else {
 								%>
